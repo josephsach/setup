@@ -40,3 +40,4 @@ brew cask install skype
 brew cask install virtualbox
 
 echo 'Remember lastpass needs manual installation...'
+echo 'You may want to install... duplicate photos finder, synology assistant, command line tools and xcode'
