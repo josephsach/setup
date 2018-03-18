@@ -1,0 +1,42 @@
+#!/bin/sh
+
+echo "Installing homebrew..."
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+echo "Installing brew cask..."
+brew tap caskroom/cask
+
+brew install vim
+brew install dos2unix
+brew install watchman
+
+brew install node
+brew install python
+pip3 install virtualenv
+
+
+brew install awscli
+brew install sceptre
+
+brew cask install adobe-acrobat-reader
+brew cask install filezilla
+brew cask install kindle
+brew cask install skype-for-business
+brew cask install visual-studio-code
+
+brew cask install appcleaner
+brew cask install firefox
+brew cask install lastpass
+brew cask install spotify
+brew cask install whatsapp
+
+brew cask install ccleaner
+brew cask install gimp
+brew cask install postman
+brew cask install steam
+
+brew cask install daisydisk
+brew cask install google-chrome
+brew cask install skype
+brew cask install virtualbox
+
