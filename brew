@@ -14,7 +14,6 @@ brew install node
 brew install python
 pip3 install virtualenv
 
-
 brew install awscli
 brew install sceptre
 
@@ -40,3 +39,4 @@ brew cask install google-chrome
 brew cask install skype
 brew cask install virtualbox
 
+echo 'Remember lastpass needs manual installation...'
